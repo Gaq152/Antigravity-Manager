@@ -1,0 +1,207 @@
+{
+    "common": {
+        "loading": "加载中...",
+        "save": "保存",
+        "saved": "保存成功",
+        "cancel": "取消",
+        "confirm": "确认",
+        "delete": "删除",
+        "edit": "编辑",
+        "refresh": "刷新",
+        "refreshing": "刷新中...",
+        "export": "导出",
+        "import": "导入",
+        "success": "成功",
+        "error": "错误",
+        "unknown": "未知",
+        "warning": "警告",
+        "info": "提示",
+        "details": "详情",
+        "clear": "清除",
+        "prev_page": "上一页",
+        "next_page": "下一页",
+        "pagination_info": "显示第 {{start}} 到 {{end}} 条，共 {{total}} 条"
+    },
+    "nav": {
+        "dashboard": "仪表盘",
+        "accounts": "账号管理",
+        "settings": "设置"
+    },
+    "dashboard": {
+        "hello": "你好, 用户 👋",
+        "refresh_quota": "刷新配额",
+        "refreshing": "刷新中...",
+        "total_accounts": "总账号数",
+        "avg_gemini": "Gemini 平均配额",
+        "avg_claude": "Claude 平均配额",
+        "low_quota_accounts": "低配额账号",
+        "quota_sufficient": "✓ 配额充足",
+        "quota_low": "⚠ 配额较低",
+        "quota_desc": "配额 < 20%",
+        "current_account": "当前账号",
+        "switch_account": "切换账号",
+        "no_active_account": "暂无活跃账号",
+        "best_accounts": "最佳账号推荐",
+        "best_account_recommendation": "最佳账号推荐",
+        "switch_best": "一键切换最佳",
+        "switch_successfully": "一键切换最佳",
+        "view_all_accounts": "查看所有账号",
+        "export_data": "导出账号数据",
+        "for_gemini": "用于 Gemini",
+        "for_claude": "用于 Claude",
+        "toast": {
+            "switch_success": "切换成功!",
+            "switch_error": "切换账号失败",
+            "refresh_success": "配额刷新成功",
+            "refresh_error": "刷新失败",
+            "export_no_accounts": "没有可导出的账号",
+            "export_success": "导出成功! 文件已保存至: {{path}}",
+            "export_error": "导出失败"
+        }
+    },
+    "accounts": {
+        "search_placeholder": "搜索邮箱...",
+        "all": "全部",
+        "available": "可用",
+        "low_quota": "低配额",
+        "add_account": "添加账号",
+        "refresh_all": "刷新所有",
+        "refresh_selected": "刷新 ({{count}})",
+        "export_selected": "导出 ({{count}})",
+        "delete_selected": "删除 ({{count}})",
+        "current": "当前",
+        "current_badge": "当前",
+        "forbidden": "403",
+        "forbidden_badge": "403",
+        "forbidden_tooltip": "API 返回 403 Forbidden，账号无权使用 Gemini Code Assist",
+        "forbidden_msg": "账号无权限，已跳过自动刷新",
+        "no_data": "无数据",
+        "last_used": "最后使用",
+        "reset_time": "重置时间",
+        "switch_to": "切换到此账号",
+        "actions": "操作",
+        "details": {
+            "title": "配额详情"
+        },
+        "add": {
+            "title": "添加新账号",
+            "tabs": {
+                "oauth": "OAuth 授权",
+                "token": "Refresh Token",
+                "import": "从数据库导入"
+            },
+            "oauth": {
+                "recommend": "推荐方式",
+                "desc": "将打开默认浏览器进行 Google 登录授权，自动获取并保存 Token。",
+                "btn_start": "开始 OAuth 授权",
+                "btn_waiting": "正在等待授权..."
+            },
+            "token": {
+                "label": "Refresh Token",
+                "placeholder": "请在此处粘贴您的 Refresh Token...",
+                "hint": "提示：粘贴 Token 后点击“确认添加”，系统将自动匹配账户信息。"
+            },
+            "import": {
+                "scheme_a": "方案 A: 从当前 IDE 数据库",
+                "scheme_a_desc": "自动从本地 Antigravity 数据库读取当前登录的账号信息。",
+                "btn_db": "导入当前登录账号",
+                "or": "或者",
+                "scheme_b": "方案 B: 从 V1 版本备份",
+                "scheme_b_desc": "扫描 ~/.antigravity-agent 目录，批量导入旧版本的账号数据。",
+                "btn_v1": "从 V1 备份批量导入"
+            },
+            "btn_cancel": "取消",
+            "btn_confirm": "确认添加",
+            "status": {
+                "error_token": "请填写 Refresh Token"
+            }
+        },
+        "table": {
+            "email": "邮箱",
+            "quota": "模型配额",
+            "last_used": "最后使用",
+            "actions": "操作"
+        },
+        "empty": {
+            "title": "暂无账号",
+            "desc": "点击上方\"添加账号\"按钮添加第一个账号"
+        },
+        "views": {
+            "list": "列表视图",
+            "grid": "网格视图"
+        },
+        "dialog": {
+            "add_title": "添加新账号",
+            "batch_delete_title": "批量删除确认",
+            "delete_title": "删除确认",
+            "batch_delete_msg": "确定要删除选中的 {{count}} 个账号吗？此操作无法撤销。",
+            "delete_msg": "确定要删除这个账号吗？此操作无法撤销。",
+            "refresh_title": "刷新配额",
+            "batch_refresh_title": "批量刷新",
+            "refresh_msg": "确定要刷新当前账号的配额吗？",
+            "batch_refresh_msg": "确定要刷新选中的 {{count}} 个账号的配额吗？这可能需要一些时间。"
+        }
+    },
+    "settings": {
+        "save": "保存设置",
+        "tabs": {
+            "general": "通用",
+            "account": "账号",
+            "advanced": "高级",
+            "about": "关于"
+        },
+        "general": {
+            "title": "通用设置",
+            "language": "语言",
+            "theme": "主题",
+            "theme_light": "浅色",
+            "theme_dark": "深色",
+            "theme_system": "跟随系统"
+        },
+        "account": {
+            "title": "账号设置",
+            "auto_refresh": "自动刷新配额",
+            "auto_refresh_desc": "定期自动刷新所有账号的配额信息",
+            "refresh_interval": "刷新间隔（分钟）",
+            "auto_sync": "自动获取当前账号",
+            "auto_sync_desc": "定期自动同步当前活跃账号信息",
+            "sync_interval": "同步间隔（秒）"
+        },
+        "advanced": {
+            "title": "高级设置",
+            "export_path": "默认导出路径",
+            "export_path_placeholder": "未设置 (每次询问)",
+            "default_export_path_desc": "设置后，导出文件将直接保存到该目录，不再弹出选择框",
+            "select_btn": "选择",
+            "open_btn": "打开",
+            "data_dir": "数据目录",
+            "data_dir_desc": "账号数据和配置文件的存储位置",
+            "logs_title": "日志维护",
+            "logs_desc": "清理应用产生的日志缓存文件，不会影响账号数据。",
+            "clear_logs": "清理日志缓存",
+            "clear_logs_title": "清理日志确认",
+            "clear_logs_msg": "确定要清理所有日志缓存文件吗？",
+            "logs_cleared": "日志缓存已清理"
+        },
+        "about": {
+            "title": "关于",
+            "version": "应用版本",
+            "tech_stack": "技术栈",
+            "author": "作者",
+            "wechat": "微信公众号",
+            "github": "开源地址",
+            "copyright": "Copyright © 2025 Antigravity. All rights reserved."
+        }
+    },
+    "tray": {
+        "current": "当前",
+        "quota": "额度",
+        "switch_next": "切换下一个账号",
+        "refresh_current": "刷新当前账号额度",
+        "show_window": "显示主窗口",
+        "quit": "退出应用 (Exit)",
+        "no_account": "无账号",
+        "unknown_quota": "未知 (点击刷新)",
+        "forbidden": "账号被封禁"
+    }
+}

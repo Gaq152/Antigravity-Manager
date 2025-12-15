@@ -1,0 +1,207 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "save": "Save",
+        "saved": "Saved successfully",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "delete": "Delete",
+        "edit": "Edit",
+        "refresh": "Refresh",
+        "refreshing": "Refreshing...",
+        "export": "Export",
+        "import": "Import",
+        "success": "Success",
+        "error": "Error",
+        "unknown": "Unknown",
+        "warning": "Warning",
+        "info": "Info",
+        "details": "Details",
+        "clear": "Clear",
+        "prev_page": "Previous",
+        "next_page": "Next",
+        "pagination_info": "Showing {{start}} to {{end}} of {{total}} entries"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "accounts": "Accounts",
+        "settings": "Settings"
+    },
+    "dashboard": {
+        "hello": "Hello, User 👋",
+        "refresh_quota": "Refresh Quota",
+        "refreshing": "Refreshing...",
+        "total_accounts": "Total Accounts",
+        "avg_gemini": "Avg. Gemini Quota",
+        "avg_claude": "Avg. Claude Quota",
+        "low_quota_accounts": "Low Quota Accounts",
+        "quota_sufficient": "Quota Sufficient",
+        "quota_low": "Low Quota",
+        "quota_desc": "Quota < 20%",
+        "current_account": "Current Account",
+        "switch_account": "Switch Account",
+        "no_active_account": "No Active Account",
+        "best_accounts": "Best Accounts",
+        "best_account_recommendation": "Best Account",
+        "switch_best": "Switch to Best",
+        "switch_successfully": "Switch to Best",
+        "view_all_accounts": "View All Accounts",
+        "export_data": "Export Data",
+        "for_gemini": "For Gemini",
+        "for_claude": "For Claude",
+        "toast": {
+            "switch_success": "Switch successful!",
+            "switch_error": "Switch account failed",
+            "refresh_success": "Quota refresh successful",
+            "refresh_error": "Refresh failed",
+            "export_no_accounts": "No accounts to export",
+            "export_success": "Export successful! File saved to: {{path}}",
+            "export_error": "Export failed"
+        }
+    },
+    "accounts": {
+        "search_placeholder": "Search email...",
+        "all": "All",
+        "available": "Available",
+        "low_quota": "Low Quota",
+        "add_account": "Add Account",
+        "refresh_all": "Refresh All",
+        "refresh_selected": "Refresh ({{count}})",
+        "export_selected": "Export ({{count}})",
+        "delete_selected": "Delete ({{count}})",
+        "current": "Current",
+        "current_badge": "Current",
+        "forbidden": "403",
+        "forbidden_badge": "403",
+        "forbidden_tooltip": "API returned 403 Forbidden, account has no permission for Gemini Code Assist",
+        "forbidden_msg": "Forbidden, skip auto-refresh",
+        "no_data": "No Data",
+        "last_used": "Last Used",
+        "reset_time": "Reset Time",
+        "switch_to": "Switch to this account",
+        "actions": "Actions",
+        "details": {
+            "title": "Quota Details"
+        },
+        "add": {
+            "title": "Add Account",
+            "tabs": {
+                "oauth": "OAuth",
+                "token": "Refresh Token",
+                "import": "Import DB"
+            },
+            "oauth": {
+                "recommend": "Recommended",
+                "desc": "Opens default browser for Google login to auto-fetch and save Token.",
+                "btn_start": "Start OAuth",
+                "btn_waiting": "Waiting for auth..."
+            },
+            "token": {
+                "label": "Refresh Token",
+                "placeholder": "Paste your Refresh Token here...",
+                "hint": "Tip: Paste Token and click 'Confirm' to auto-match account info."
+            },
+            "import": {
+                "scheme_a": "Plan A: From IDE DB",
+                "scheme_a_desc": "Auto-read current logged-in account from local Antigravity DB.",
+                "btn_db": "Import Current Account",
+                "or": "OR",
+                "scheme_b": "Plan B: From V1 Backup",
+                "scheme_b_desc": "Scan ~/.antigravity-agent for V1 account data.",
+                "btn_v1": "Batch Import V1"
+            },
+            "btn_cancel": "Cancel",
+            "btn_confirm": "Confirm",
+            "status": {
+                "error_token": "Please enter Refresh Token"
+            }
+        },
+        "table": {
+            "email": "Email",
+            "quota": "Model Quota",
+            "last_used": "Last Used",
+            "actions": "Actions"
+        },
+        "empty": {
+            "title": "No Accounts",
+            "desc": "Click the \"Add Account\" button above to add your first account"
+        },
+        "views": {
+            "list": "List View",
+            "grid": "Grid View"
+        },
+        "dialog": {
+            "add_title": "Add Account",
+            "batch_delete_title": "Batch Delete Confirmation",
+            "delete_title": "Delete Confirmation",
+            "batch_delete_msg": "Are you sure you want to delete the selected {{count}} accounts? This action cannot be undone.",
+            "delete_msg": "Are you sure you want to delete this account? This action cannot be undone.",
+            "refresh_title": "Refresh Quota",
+            "batch_refresh_title": "Batch Refresh",
+            "refresh_msg": "Are you sure you want to refresh the quota for the current account?",
+            "batch_refresh_msg": "Are you sure you want to refresh quotas for the selected {{count}} accounts? This may take some time."
+        }
+    },
+    "settings": {
+        "save": "Save Settings",
+        "tabs": {
+            "general": "General",
+            "account": "Account",
+            "advanced": "Advanced",
+            "about": "About"
+        },
+        "general": {
+            "title": "General Settings",
+            "language": "Language",
+            "theme": "Theme",
+            "theme_light": "Light",
+            "theme_dark": "Dark",
+            "theme_system": "System"
+        },
+        "account": {
+            "title": "Account Settings",
+            "auto_refresh": "Auto Refresh Quota",
+            "auto_refresh_desc": "Automatically refresh quota information for all accounts periodically",
+            "refresh_interval": "Refresh Interval (minutes)",
+            "auto_sync": "Auto Sync Current Account",
+            "auto_sync_desc": "Automatically sync current active account information periodically",
+            "sync_interval": "Sync Interval (seconds)"
+        },
+        "advanced": {
+            "title": "Advanced Settings",
+            "export_path": "Default Export Path",
+            "export_path_placeholder": "Not set (Ask every time)",
+            "default_export_path_desc": "Files will be saved directly to this folder without asking",
+            "select_btn": "Select",
+            "open_btn": "Open",
+            "data_dir": "Data Directory",
+            "data_dir_desc": "Account data and config file location",
+            "logs_title": "Logs Maintenance",
+            "logs_desc": "Clear log cache files. Does not affect account data.",
+            "clear_logs": "Clear Logs Cache",
+            "clear_logs_title": "Clear Logs Confirmation",
+            "clear_logs_msg": "Are you sure you want to clear all log cache files?",
+            "logs_cleared": "Logs cache cleared"
+        },
+        "about": {
+            "title": "About",
+            "version": "App Version",
+            "tech_stack": "Tech Stack",
+            "author": "Author",
+            "wechat": "WeChat",
+            "github": "GitHub",
+            "copyright": "Copyright © 2025 Antigravity. All rights reserved."
+        }
+    },
+    "tray": {
+        "current": "Current",
+        "quota": "Quota",
+        "switch_next": "Switch to Next Account",
+        "refresh_current": "Refresh Current Quota",
+        "show_window": "Show Main Window",
+        "quit": "Quit Application",
+        "no_account": "No Account",
+        "unknown_quota": "Unknown (Click to Refresh)",
+        "forbidden": "Account Forbidden"
+    }
+}
